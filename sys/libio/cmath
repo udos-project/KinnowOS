@@ -1,0 +1,8 @@
+#ifndef __LIBIO_CMATH__
+#define __LIBIO_CMATH__ 1
+
+namespace std {
+#include <math.h>
+}
+
+#endif

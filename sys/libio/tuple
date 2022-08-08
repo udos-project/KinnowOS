@@ -1,0 +1,6 @@
+#ifndef __LIBIO_TUPLE__
+#define __LIBIO_TUPLE__ 1
+
+#include <compare>
+
+#endif

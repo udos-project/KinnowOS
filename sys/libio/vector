@@ -1,0 +1,28 @@
+#ifndef __LIBIO_VECTOR__
+#define __LIBIO_VECTOR__ 1
+
+namespace std {
+    template<typename T, typename A>
+    class vector {
+        using size_type = size_t;
+        size_type n_elem;
+
+        constexpr vector<T, A>() {
+
+        }
+
+        constexpr ~vector<T, A>() {
+
+        }
+
+        constexpr size_type size(void) {
+            return this->n_elem;
+        }
+
+        constexpr bool empty(void) {
+            return !this->size();
+        }
+    };
+}
+
+#endif

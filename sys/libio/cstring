@@ -1,0 +1,8 @@
+#ifndef __LIBIO_CSTRING__
+#define __LIBIO_CSTRING__ 1
+
+namespace std {
+#include <string.h>
+}
+
+#endif

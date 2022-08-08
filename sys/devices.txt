@@ -1,0 +1,8 @@
+* Devices description dataset
+* Mode - Driver - Id - Number
+*
+* NOTE: IPL disk is automatically added
+*
+AUTO    NDR     0001.0001
+AUTO    NDR     0001.0002
+AUTO    NDR     0001.0003

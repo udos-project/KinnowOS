@@ -1,0 +1,28 @@
+ARCHMODE  Z/ARCH
+CPUSERIAL 000611
+CPUMODEL  4381
+MAXCPU    1
+NUMCPU    1
+MAINSIZE  16
+XPNDSIZE  0
+CNSLPORT  3270
+PGMPRDOS  RESTRICTED
+CODEPAGE  819/1047
+SYSEPOCH  1900
+DIAG8CMD  ENABLE
+PANTITLE  "uDOS v0.1 for ESA/390"
+# .-----------------------------Device number
+# |     .-----------------------Device type
+# |     |       .---------------File name
+# |     |       |
+# V     V       V
+#---   ----    ---------------------------------
+#0000   SYSG
+#---   ----    ---------------------------------
+# Required
+#---   ----    ---------------------------------
+01b9   2305    sysdsk00.cckd
+0400   3270
+#0E40   3525    pch001.dat ebcdic
+001f   3215-C  / noprompt
+#---   ----    --------------------------------- 

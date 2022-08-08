@@ -1,0 +1,60 @@
+SET-ENCODING EBCDIC-930
+KEY-TABLE(SIZE 300)
+*******************************************************************************
+TABLE(NAME "HELP" COLUMNS 1)
+START
+00000 ALT-KEY("GOALS") ?START
+"A list of goals (not features) is provided below:" CR LF
+"- Hybrid kernel" CR LF
+"	^ Mostly hybrid to obtain the benefits of both monolhitic and micro kernel"
+" architectures" CR LF
+"- JCL interpreter out-of-box; integrated tightly with the system" CR LF
+"	^ JDA kind of replaces the JCL idea, but maybe a JCL wrapper could be done"
+" that uses JDA as a backend?" CR LF
+"- Integration with graphical windows management systems" CR LF
+"	^ Would probably require some sort of VNC, and for VNC it requires a"
+" fully working TCP/IP stack" CR LF
+"- NetKernel-only operation (no graphical user interface and pure networking)"
+CR LF
+"	^ Aforementioned TCP/IP stack is required" CR LF
+"- POSIX ports" CR LF
+"	^ As long as it can be abstracted into the native system via some sort"
+" of libc" CR LF
+"- VAX/PDP ports" CR LF
+"	^ Could be great, since those are also mainframes" CR LF
+"- UDI integration with the kernel" CR LF
+"	^ Mostly because UDI is currently unexplored on anything that is not x86"
+" or x86_64" CR LF
+"- RAM and CPU hot(un)plugging on the run" CR LF
+"	^ Makes sense for a mainframe that might have +100 cores" CR LF
+?END
+00001 ALT-KEY("TLB") ?START
+Translation-loakside-buffers are buffers storing the corresponding physical"
+" addresses of a virtual address, this means that whenever the processor"
+" wants to access a virtual address it will consult the translation-"
+"loakside-buffer first in order to not recurse the entire page tree,"
+" if it finds an entry corresponding to the virtual address it wants to"
+" access it will not recurse the entire page tree, however if it fails to"
+" find any entry corresponding to said virtual address then it will have"
+" to manually recurse the entire page tree by itself until finding the"
+" corresponding physical address to a virtual one, this is an expensive"
+" operation which requires accessing multiple pages of data which can screw"
+" things over a little bit, hence justifying the existence of translation-"
+"loakside-buffers, once the processor has found the page entry it needs, "
+"it will add it to the translation-loakside-buffer, these buffers are often"
+" of a limited since so not-so-accessed entries gets discarded from it."
+?END
+00002 ALT-KEY("JDA-COPY") ?START
+"* The source dataset"
+"FILE1=\"/TAPE/SRC.TXT\""
+"* The destination dataset"
+"FILE2=\"/TAPE/DEST.TXT\""
+"* Call the CP utility"
+"FD=OPENFILE(\"/TAPE/SYSLIB$CP\")"
+"    * RC now holds the return code"
+"    RC=SEQPGM(FD,FILE1,FILE2)"
+"    PRINT(\"Program RC=\",RC)"
+"CLOSEFILE(FD)"
+?END
+END
+*******************************************************************************

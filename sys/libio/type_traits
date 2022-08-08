@@ -1,0 +1,21 @@
+#ifndef __LIBIO_TYPETRAITS__
+#define __LIBIO_TYPETRAITS__ 1
+
+namespace std {
+    template<class T>
+    struct remove_reference {
+        typedef T type;
+    };
+
+    template<class T>
+    struct remove_reference<T&> {
+        typedef T type;
+    };
+
+    template<class T>
+    struct remove_reference<T&&> {
+        typedef T type;
+    };
+}
+
+#endif

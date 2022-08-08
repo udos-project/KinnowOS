@@ -1,0 +1,77 @@
+# Object files
+*.o
+*.obj
+*.o1
+*.d
+*.so
+*.a
+*.pe
+*.bin
+*.exe
+log.txt
+kernel/kernel
+kernel/arch
+ipl/ipl
+
+# Distrobution/User disks
+*.het
+*.cckd
+
+# Compilation artifacts
+tools/bin2pe
+tools/dir2dasd
+tools/herc2data
+out/
+log/
+
+# Gcc modules
+*.gcm*
+
+# Visual Studio Code and ides
+.vscode/
+nano.save
+.vimrc
+compile_commands.json
+
+# LaTeX artifacts
+*.log
+*.aux
+*.pdf
+*.synctex.gz
+*.out
+
+# Distrobution
+*.7z
+*.zip
+*.xz
+*.tar.gz
+*.tar.xz
+*.tar
+
+# Other programs
+sys/build
+sys/bash
+sys/glibc
+sys/mpfr
+sys/isl
+sys/cloog
+sys/gettext
+sys/gcc
+sys/binutils
+sys/v
+sys/rustc
+sys/cargo
+sys/dash
+sys/fish
+sys/autotools
+sys/autoconf
+sys/automake
+sys/make
+sys/cmake
+sys/xbstrap
+sys/git
+sys/coreutils
+sys/perl
+sys/python
+sys/texinfo
+sys/gnulib

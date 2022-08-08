@@ -1,0 +1,8 @@
+#ifndef __LIBIO_CSTDIO__
+#define __LIBIO_CSTDIO__ 1
+
+namespace std {
+#include <stdio.h>
+}
+
+#endif

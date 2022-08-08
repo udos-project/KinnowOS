@@ -1,0 +1,8 @@
+#ifndef __LIBIO_CSTDLIB__
+#define __LIBIO_CSTDLIB__ 1
+
+namespace std {
+#include <stdlib.h>
+}
+
+#endif

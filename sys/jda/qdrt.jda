@@ -1,0 +1,15 @@
+PRINT("Input value for B: ")
+A=NUMBER(INPUT())
+PRINT("Input value for B: ")
+B=NUMBER(INPUT())
+PRINT("Input value for C: ")
+C=NUMBER(INPUT())
+PRINT("A=",A,",B=",B,",C=",C)
+* The other component
+X1=(B/(2*A))
+* The square root component
+X2=SQRT((B^2)-(4*A*C))/(4*(A^2))
+* Positive square root
+XP=X1+X2
+* Negative square root
+XN=X1-X2

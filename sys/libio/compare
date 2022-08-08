@@ -1,0 +1,4 @@
+#ifndef __LIBIO_COMPARE__
+#define __LIBIO_COMPARE__ 1
+
+#endif

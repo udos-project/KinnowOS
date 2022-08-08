@@ -1,0 +1,111 @@
+SET-ENCODING EBCDIC-930
+KEY-TABLE(SIZE 50)
+*******************************************************************************
+* ENGLISH LOCALE
+*
+*******************************************************************************
+SET-LOCALE EN
+SET-COUNTRY *
+START
+00000 "Error:"
+00001 "!"
+00002 "Out of memory"
+00003 "Zero-length number"
+00004 "Zero-length string"
+00005 "Expected an argument"
+00006 "Test the terminal"
+00007 "Dump the stack of objects"
+00008 "Display information about the system"
+00009 "Clear the screen"
+00010 "Dump the JDA context"
+00011 "Logout the workstation"
+00012 "Obtains main storage, mem = GETMAIN(block_size)"
+00013 "Resizes a previously allocated block of storage, p=RESIZEMAIN(storage_pointer, size)"
+00014 "Free a chunk of allocated storage"
+00015 "Push an object to the stack"
+00016 "Pops an object from the stack (deleting it)"
+00017 "Duplicate the top object on the stack"
+00018 "Receive input from the user and place it on the stack"
+00019 "Print text with elements from the stack"
+00020 "Convert an object to a string and push it to the stack"
+00021 "List all documented data"
+00022 "List the datasets on the virtual disk"
+00023 "Make a new category; MKCAT(\"name of the category\")"
+00024 "Obtain the current UserId"
+00025 "Obtain a username from an UserId"
+00026 "Execute a program, EXEC(file_id)"
+00027 "Opens a new file handle that can be manipulated at will"
+00028 "Create a new file on the currently running system tape"
+00029 "Execute a program; PGM(\"PROGRAM.PATH\", \"OPT-ARG1\", \"OPT-ARG2\")"
+00030 "JDA on UDOS. "[][]"B ("[][]"B used) of storage used across "[]" regions"
+00031 "Currently logged-in user:"
+00032 "Empty dataset"
+00033 "Invalid filename provided"
+00034 "Can't find dataset "[]
+00035 "Invalid fd "[]
+00036 "Problems? Try typing \"HELP()\"!"
+00037 "Convert an object to a number and push it to the stack"
+00038 "Execute a sequential program"
+00039 "Obtains the square root of the given number"
+00040 "Obtains the factorial of the given number"
+00041
+00042
+00043
+00044
+00045
+END
+*******************************************************************************
+* JAPANESSE LOCALE
+*
+*******************************************************************************
+SET-LOCALE JP
+SET-COUNTRY *
+START
+00000 "エラー:"
+00001 "！"
+00002 "ストレージが不足しています"
+00003 "Zero-length number"
+00004 "Zero-length string"
+00005 "この関数への引数が必要です"
+00006 "端末をテストします"
+00007 "オブジェクトのスタックをダンプします"
+00008 "システムに関する情報を表示する"
+00009 "画面をクリアする"
+00010 "JDAコンテキストをダンプします"
+00011 "ワークステーションからログアウトします"
+00012 "メインストレージを取得します。mem=GETMAIN（ブロックサイズ）"
+00013 "以前に割り当てられたストレージのブロックのサイズを変更します。p=RESIZEMAIN（ストレージポインター、サイズ）"
+00014 "割り当てられたストレージのチャンクを解放します"
+00015 "オブジェクトをスタックにプッシュします"
+00016 "スタックからオブジェクトをポップします（削除します）"
+00017 "スタックの一番上のオブジェクトを複製します"
+00018 "ユーザーからの入力を受け取り、スタックに配置します"
+00019 "スタックの要素を含むテキストを印刷する"
+00020 "オブジェクトを文字列に変換し、スタックにプッシュします
+00021 "文書化されたすべてのデータを一覧表示"
+00022 "仮想ディスク上のデータセットを一覧表示します"
+00023 "新しいカテゴリを作成します。 MKCAT（\"カテゴリ名\"）"
+00024 "現在のユーザーIDを取得する"
+00025 "ユーザーIDからユーザー名を取得する"
+00026 "プログラムEXEC（file_id）を実行します"
+00027 "自由に操作できる新しいファイルハンドルを開きます"
+00028 "現在実行中のシステムテープに新しいファイルを作成します"
+00029 "プログラムを実行します。 PGM（\"PROGRAM.PATH \"、\"OPT-ARG1 \"、\"OPT-ARG2 \"）"
+00030 "UDOS上のJDA。"[][]"B ("[][]"B 使用される) に細分 "[]" つの地域"
+00031 "現在のシステムオペレーターユーザー："
+00032 "Empty dataset"
+00033 "無効なファイル名が指定されました"
+00034 "Can't find dataset "[]
+00035 "Invalid fd "[]
+00036 "問題？ \"HELP（）\"と入力してみてください！"
+00037 "Convert an object to a number and push it to the stack"
+00038 "Execute a sequential program"
+00039 "Obtains the square root of the given number"
+00040 "Obtains the factorial of the given number"
+00041
+00042
+00043
+00044
+00045
+END
+*******************************************************************************

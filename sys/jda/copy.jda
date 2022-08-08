@@ -1,0 +1,10 @@
+* The source dataset
+FILE1="/TAPE/SRC.TXT"
+* The destination dataset
+FILE2="/TAPE/DEST.TXT"
+* Call the CP utility
+FD=OPENFILE("/TAPE/SYSLIB$CP")
+    * RC now holds the return code
+    RC=SEQPGM(FD,FILE1,FILE2)
+    PRINT("Program RC=",RC)
+CLOSEFILE(FD)

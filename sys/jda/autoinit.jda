@@ -1,0 +1,12 @@
+*
+* Print the uDOS logo
+*
+PRINT("                $$")
+PRINT("                $$")
+PRINT("$$    $$  $$$$$$$   $$$$$$    $$$$$$$")
+PRINT("$$    $$ $$    $$  $$    $$  $$")
+PRINT("$$    $$ $$    $$  $$    $$   $$$$$$")
+PRINT("$$    $$ $$    $$  $$    $$        $$")
+PRINT(" $$$$$$   $$$$$$$   $$$$$$   $$$$$$$")
+PRINT("An experimental mainframe OS!")
+*
